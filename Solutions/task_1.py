@@ -10,9 +10,7 @@ Original file is located at
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.ensemble import (
-    ExtraTreesRegressor, GradientBoostingRegressor, RandomForestRegressor
-)
+
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPRegressor
 from sklearn.model_selection import train_test_split
